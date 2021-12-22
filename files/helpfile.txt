@@ -1,0 +1,29 @@
+  NAME
+
+        Projet - La machine à inventer des mots (Fabricationcepteur de Syntrepèteries et Localemboules).
+
+  SYNOPSIS
+
+        projet [OPTION]... FILE.TXT
+
+  DESCRIPTION
+
+        Génère des mots ou des phrases à partir du dictionnaire FILE.
+
+        -a , utilise la méthode aléatoire pour générer les mots.
+                                                                               NOTA : Pour utiliser cette fonction, il faut renseigner une longueur -s 'x' en paramètres,
+                                                                                           si ce n'est pas renseigné, une valeur aléatoire est générée.
+   	-d , utilise la méthode des digrammes pour générer les mots.
+   	-t , utilise la méthode des trigrammes pour générer les mots.
+   	-p , génère une phrase (en utilisant la méthode des trigrammes)
+        //                                                                     NOTA : Pour utiliser cette fonction, un dictionnaire d'Adjectifs, de Sujets et de Verbes du premier
+        //                                                                          et du 2ème groupe doivent être présents dans le dossier d'éxécution du programme
+        //
+        -ps , génère une phrase bonus (en utilisant la méthode des trigrammes)
+   	-n NB , génère NB mots (par défaut génère 100 mots.
+   	-s NB , affiche uniquement des mots de NB caractères.
+   	-h , affiche cette aide et quitte.
+
+   AUTEURS
+
+        Écrit par Théo LARREGLE et Thomas LEFLOCH.
